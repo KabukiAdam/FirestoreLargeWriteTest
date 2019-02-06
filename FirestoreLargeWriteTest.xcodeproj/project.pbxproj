@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B2C64F58436BFA41517EE48 /* Pods_FirestoreLargeWriteTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1296D85C4E11C7D07940550B /* Pods_FirestoreLargeWriteTest.framework */; };
 		66BF23B7220B294F0077D085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BF23B6220B294F0077D085 /* AppDelegate.swift */; };
 		66BF23B9220B294F0077D085 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BF23B8220B294F0077D085 /* ViewController.swift */; };
 		66BF23BC220B294F0077D085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BF23BA220B294F0077D085 /* Main.storyboard */; };
 		66BF23BE220B29530077D085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66BF23BD220B29530077D085 /* Assets.xcassets */; };
 		66BF23C1220B29530077D085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BF23BF220B29530077D085 /* LaunchScreen.storyboard */; };
+		66BF23C9220B2FC10077D085 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66BF23C8220B2FC10077D085 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1296D85C4E11C7D07940550B /* Pods_FirestoreLargeWriteTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirestoreLargeWriteTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66BF23B3220B294F0077D085 /* FirestoreLargeWriteTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirestoreLargeWriteTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66BF23B6220B294F0077D085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66BF23B8220B294F0077D085 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		66BF23BD220B29530077D085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66BF23C0220B29530077D085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66BF23C2220B29530077D085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BF23C8220B2FC10077D085 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A1F89459E199C0E055BF743E /* Pods-FirestoreLargeWriteTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirestoreLargeWriteTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirestoreLargeWriteTest/Pods-FirestoreLargeWriteTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E6153B274DF373F0EE98AA15 /* Pods-FirestoreLargeWriteTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirestoreLargeWriteTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirestoreLargeWriteTest/Pods-FirestoreLargeWriteTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2C64F58436BFA41517EE48 /* Pods_FirestoreLargeWriteTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09307A0C7F00A35655459423 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1F89459E199C0E055BF743E /* Pods-FirestoreLargeWriteTest.debug.xcconfig */,
+				E6153B274DF373F0EE98AA15 /* Pods-FirestoreLargeWriteTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59621DFC85B00D331EE1F816 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1296D85C4E11C7D07940550B /* Pods_FirestoreLargeWriteTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		66BF23AA220B294F0077D085 = {
 			isa = PBXGroup;
 			children = (
 				66BF23B5220B294F0077D085 /* FirestoreLargeWriteTest */,
 				66BF23B4220B294F0077D085 /* Products */,
+				09307A0C7F00A35655459423 /* Pods */,
+				59621DFC85B00D331EE1F816 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +85,7 @@
 				66BF23BA220B294F0077D085 /* Main.storyboard */,
 				66BF23BD220B29530077D085 /* Assets.xcassets */,
 				66BF23BF220B29530077D085 /* LaunchScreen.storyboard */,
+				66BF23C8220B2FC10077D085 /* GoogleService-Info.plist */,
 				66BF23C2220B29530077D085 /* Info.plist */,
 			);
 			path = FirestoreLargeWriteTest;
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66BF23C5220B29530077D085 /* Build configuration list for PBXNativeTarget "FirestoreLargeWriteTest" */;
 			buildPhases = (
+				9AF9DBEFDE27D701F2200090 /* [CP] Check Pods Manifest.lock */,
 				66BF23AF220B294F0077D085 /* Sources */,
 				66BF23B0220B294F0077D085 /* Frameworks */,
 				66BF23B1220B294F0077D085 /* Resources */,
+				D95AA4E79EC42322490737AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,12 +152,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				66BF23C1220B29530077D085 /* LaunchScreen.storyboard in Resources */,
+				66BF23C9220B2FC10077D085 /* GoogleService-Info.plist in Resources */,
 				66BF23BE220B29530077D085 /* Assets.xcassets in Resources */,
 				66BF23BC220B294F0077D085 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AF9DBEFDE27D701F2200090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirestoreLargeWriteTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95AA4E79EC42322490737AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FirestoreLargeWriteTest/Pods-FirestoreLargeWriteTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirestoreLargeWriteTest/Pods-FirestoreLargeWriteTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		66BF23AF220B294F0077D085 /* Sources */ = {
@@ -280,6 +373,7 @@
 		};
 		66BF23C6220B29530077D085 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F89459E199C0E055BF743E /* Pods-FirestoreLargeWriteTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +392,7 @@
 		};
 		66BF23C7220B29530077D085 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6153B274DF373F0EE98AA15 /* Pods-FirestoreLargeWriteTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
