@@ -19,6 +19,7 @@ The app provides a numebr of parameters you can change in order to try different
 - Delay between writes
 
 Tap the button **Add Docs** to add the documents consecutively without using batch.
+
 Tap the button **Add Docs Batch** to add batches of documents consecutively.
 
 The log area at the bottom will show the progress of the writes, and the results of the completion handler.
