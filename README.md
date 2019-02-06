@@ -9,7 +9,7 @@ This project reproduces a bug in firestore when writing a large amount of data:
 - The problem happens regardless of whether the writes are batched or not.
 
 ## Getting Started
-To use the app, you must set up a Firestore database and download the GoogleService-Info.plist, replacing that file in this project with the one you download.
+To use the app, you must set up a Firestore database and download the `GoogleService-Info.plist`, replacing that file in this project with the one you download.
 
 ## Using the App
 The app provides a numebr of parameters you can change in order to try different things:
