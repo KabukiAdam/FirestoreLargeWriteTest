@@ -8,6 +8,8 @@ This project reproduces a bug in firestore when writing a large amount of data:
 - The problem happens regardless any time delays in between the writes.
 - The problem happens regardless of whether the writes are batched or not.
 
+This is likely the same bug as [this github issue](https://github.com/firebase/firebase-ios-sdk/issues/933#issuecomment-376205394), which the Firebase team is aware of.
+
 ## Getting Started
 To use the app, you must set up a Firestore database and download the `GoogleService-Info.plist`, replacing that file in this project with the one you download.
 
